@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.env
+
+# Model files
+models/*.pt
+models/*.onnx
+models/checkpoint/
+
+# Data
+data/*
+!data/.gitkeep
+
+# MacOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
