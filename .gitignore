@@ -26,10 +26,12 @@ venv/
 models/*.pt
 models/*.onnx
 models/checkpoint/
+!models/README.md
 
 # Data
 data/*
 !data/.gitkeep
+!data/README.md
 
 # MacOS
 .DS_Store
